@@ -1,0 +1,9 @@
+# ignore all root files and root directories
+/*
+/*/
+
+# except for a few select files and directories including 
+# all of their files and subdirectories
+!/.gitignore
+!/scripts_r/
+!/scripts_sh/
